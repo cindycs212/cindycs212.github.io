@@ -1,0 +1,36 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+
+  .sections {
+    height: calc(100vh - 86.75px);
+    width: 100%;
+    // set position relative to the header so that section is not hidden behind it
+    position: relative;
+    top: 86.75px;
+    // smooth transition
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    // snap to entire component when scrolling, y-axis
+    scroll-snap-type: y mandatory;
+    // make scrollbar invisible
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    -webkit-overflow-scrolling: touch;
+
+    // for each elements inside sections 
+    >* {
+      width: 100%;
+      height: 100%;
+      // set scroll snap to show from start point of the component
+      scroll-snap-align: start;
+    }
+  }
+}
