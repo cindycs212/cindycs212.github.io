@@ -23,6 +23,11 @@
         color: white;
         font-weight: 600;
         text-transform: lowercase;
+
+        // #arrow {
+        //     color: transparent;
+        //     margin-left: 10px;
+        // }
     }
 
     &:hover {
@@ -32,6 +37,10 @@
 
     &.active {
         background-color: #f8d295;
+
+        // #arrow {
+        //     color: white;
+        // }
     }
 
     // remove blue outline when button is clicked

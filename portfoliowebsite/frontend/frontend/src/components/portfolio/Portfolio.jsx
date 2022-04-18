@@ -3,6 +3,7 @@ import './portfolio.scss'
 import { projects } from '../../dataProjects.jsx'
 // You can leave off the curly braces only for the default function from a module/package
 import { useState, useEffect } from 'react'
+import Nextpage from '../nextpage/Nextpage'
 
 export default function Portfolio() {
     // use project title, img, desc from data file
@@ -27,8 +28,10 @@ export default function Portfolio() {
                             {/* on click set project so that the clicked project is passed to show in modal which is outside the map function */}
                             <div className='project' id='project' data-bs-toggle='modal' data-bs-target='#myWebModal' onClick={() => setProject(d)}>
                                 <img src={d.img} alt='image' className='projImage img-fluid' />
-                                <h4>{d.id}</h4>
-                                <h3>{d.title}</h3>
+                                {/* <h4 id='number'>{d.id}</h4> */}
+                                <h3 id='projTitle'>{d.title}</h3>
+                                <span className="text-center" id='stack'>{d.desc}</span>
+                                <button type='button' className="btn btn-info text-center" id='demo'>Demo</button>
                             </div>
 
                         </li>
@@ -43,13 +46,18 @@ export default function Portfolio() {
                                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div className="modal-body">
-                                    {project.desc}
+                                    {project.demo}
                                 </div>
                             </div>
                         </div>
                     </div>
+                    {/* <a href='#portfolio' id='nextpage'>
+                        <img src='/imgs/down.png' alt='nextpagearrow' />
+                    </a> */}
+                    <Nextpage page='#experience' id='nextpage' />
                 </div >
             </div >
+
         </div >
     )
 }

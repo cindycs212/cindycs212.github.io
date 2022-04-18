@@ -6,11 +6,12 @@
   font-family: 'Raleway', sans-serif;
 
   .sections {
-    height: calc(100vh - 86.75px);
-    width: 100%;
+    // background-color: black;
+    height: calc(100vh - 86.4px);
+    width: 100vw;
     // set position relative to the header so that section is not hidden behind it
     position: relative;
-    top: 86.75px;
+    top: 86.2px;
     // smooth transition
     scroll-behavior: smooth;
     overflow-y: scroll;

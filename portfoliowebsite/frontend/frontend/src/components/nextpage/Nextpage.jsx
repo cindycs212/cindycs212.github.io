@@ -1,10 +1,10 @@
 import React from 'react'
 import './nextpage.scss'
 
-export default function Nextpage() {
+export default function Nextpage({ page }) {
     return (
         <div className='container' id='nextpage'>
-            <a href='#portfolio' id='link'>
+            <a href={page} id='link'>
                 <img src="/imgs/down.png" alt="arrow" id='arrow' />
             </a>
         </div>
