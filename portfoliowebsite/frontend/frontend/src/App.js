@@ -3,9 +3,6 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Portfolio from './components/portfolio/Portfolio';
 import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
-// import './assets/css/fonts.css';
-
 
 function App() {
 
@@ -16,7 +13,6 @@ function App() {
         <Home />
         <Portfolio />
         <Experience />
-        {/* <Contact /> */}
       </div>
     </div>
   );

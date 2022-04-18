@@ -1,1 +1,57 @@
 @import '../colors.scss';
+
+#swe {
+    height: 70%;
+    width: 73%;
+    // background-color: lightcyan;
+    // opacity: 0.5;
+    margin-top: 3rem;
+    color: white;
+    text-shadow: $blueCG 1px 0 7px;
+    font-size: 1.6rem;
+
+
+    #emphasize {
+        font-size: 2rem;
+        color: $blueCG;
+        text-shadow: white 1px 0 7px;
+    }
+
+    a {
+        font-size: 2rem;
+        color: $blueGreenMax;
+        text-shadow: white 1px 0 7px;
+        text-decoration-color: $blueGreenMid;
+        transition: all 0.3s ease-in;
+
+        &:hover {
+            font-size: 2.1rem;
+            color: $blueCG;
+            text-decoration-color: $yellowLight;
+        }
+    }
+
+
+    li {
+        list-style-type: '\1F4BB'; //unicode for graduation cap
+        margin-bottom: 30px;
+        // text-shadow: 
+
+        span {
+            margin-left: 5px;
+        }
+
+    }
+
+    #stack {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+
+        li {
+            list-style: none;
+            margin: 0;
+        }
+    }
+
+}

@@ -5,9 +5,15 @@
     overflow: hidden;
     // background-color: bisque;
     // background-color: lightblue;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, $almondBlanched);
+    // background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, $almondBlanched);
+    background-image: url('./../../../public/imgs/handCard.jpg');
+    background-size: 1450px 850px;
+    /* to position the element -40px from the top */
+    background-position: top -40px left;
+
 
     #title {
+        margin-top: 10px;
         display: flex;
         justify-content: center;
         text-transform: uppercase;

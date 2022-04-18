@@ -9,8 +9,10 @@
     // display: flex;
     // As you have imported all css to a single main.scss you need to do the following in the backgroud url
     // . / .. instead of .. / ..
-    background-image: url('./../../../public/imgs/white.jpg');
+    background-image: url('./../../../public/imgs/building.jpg');
     background-size: cover;
+    /* to position the element 400px from the left */
+    background-position: left 400px top;
     // opacity: 0.5;
     // background-color: white;
     // transform: rotate(180deg);
@@ -178,7 +180,7 @@
         position: absolute;
         right: 0;
         font-size: 50px;
-        color: $yellowLight;
+        color: $blueAero;
 
 
 

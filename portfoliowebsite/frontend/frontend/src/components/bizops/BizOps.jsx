@@ -3,6 +3,6 @@ import './bizops.scss'
 
 export default function BizOps() {
     return (
-        <div>BizOps</div>
+        <div id='bizops'>BizOps</div>
     )
 }
