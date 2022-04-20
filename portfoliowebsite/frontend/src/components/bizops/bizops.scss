@@ -1,0 +1,22 @@
+@import '../colors.scss';
+
+#bizops {
+    height: 70%;
+    width: 73%;
+    margin-top: 3rem;
+    color: white;
+    text-shadow: $blueCG 1px 0 7px;
+    font-size: 1.6rem;
+
+    li {
+        list-style-type: '\1F587'; //1F58A
+        // margin-bottom: 30px;
+        // text-shadow: 
+
+        span {
+            margin-left: 5px;
+            font-size: 1.3rem;
+        }
+    }
+
+}

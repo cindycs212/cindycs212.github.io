@@ -14,8 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+# from django.urls import path
+from django.urls import re_path
+from backend.views import frontendViews
 
+# use re_path and '.*' instead of '' to help locate manifest.json, otherwise there's a 404 error
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    re_path('admin/', admin.site.urls),
+    re_path('.*', frontendViews, name='front'),
+
 ]

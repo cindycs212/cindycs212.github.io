@@ -1,0 +1,68 @@
+@import './components/colors.scss';
+
+.embed-responsive {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    /* calculate by aspect ratio (h / w * 100%) */
+    padding-bottom: 56.25%;
+
+    .embed-responsive-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+
+    }
+}
+
+#modalHeading {
+    font-weight: 600;
+    text-decoration: underline;
+    // font-family: 'Exo';
+
+}
+
+// li {
+//     list-style: circle;
+//     columns: 2;
+//     // font-size: 25px;
+// }
+
+#stackDesc {
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+}
+
+#stackDesc:nth-of-type(n) {
+    color: $blueGreenMid;
+}
+
+#stackDesc:nth-of-type(2n) {
+    color: $blueMorning;
+}
+
+#githubButton {
+    // position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    // z-index: 0;
+    /* color | offset-x | offset-y | blur-radius */
+    // text-shadow: $yellowLight 1px 1px 8px;
+    // font-family: 'Exo', 'Raleway', sans-serif;
+    border-radius: 40px;
+    background-color: $blueGreenMax;
+    border-color: $blueCG;
+    box-shadow: 0 .5rem 1rem rgba(black, .15);
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}

@@ -1,0 +1,49 @@
+@import '../colors.scss';
+
+#education {
+    height: 70%;
+    width: 73%;
+    // opacity: 0.5;
+    margin-top: 3rem;
+    color: white;
+    text-shadow: $blueCG 1px 0 7px;
+    font-size: 1.6rem;
+    position: relative;
+
+    #emphasize {
+        font-size: 2rem;
+        color: $blueCG;
+        text-shadow: white 1px 0 7px;
+    }
+
+    #icon {
+        // text-shadow: white 1px 0 7px;
+        text-shadow: none;
+    }
+
+    li {
+        list-style-type: '\1F393'; //unicode for graduation cap
+        margin-bottom: 30px;
+        // text-shadow: 
+
+        span {
+            margin-left: 5px;
+        }
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+        margin-left: 50px;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    #cu {
+        right: 450px;
+    }
+
+    #seas {
+        right: 250px;
+    }
+}
