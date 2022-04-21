@@ -34,8 +34,8 @@ class ContactCreateView(APIView):
                 + data['email']
                 + '\n\nMessage:\n'
                 + data['message'],
-                'donotreply.testemails@gmail.com',
-                ['donotreply.testemails@gmail.com'], #send email to itself
+                os.getenv('EMAIL_HOST_USER'),
+                [os.getenv('EMAIL_HOST_USER')], #send email to itself
                 fail_silently=False
             )
 
