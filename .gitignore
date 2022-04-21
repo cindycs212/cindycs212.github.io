@@ -6,6 +6,9 @@
 # .pnp
 # .pnp.js
 
+# images
+/portfoliowebsite/frontend/src/assets
+
 # testing
 # coverage
 
@@ -28,3 +31,4 @@
 
 # secret key
 .env
+
