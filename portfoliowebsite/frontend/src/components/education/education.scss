@@ -1,19 +1,19 @@
 @import '../colors.scss';
 
 #education {
-    height: 70%;
-    width: 73%;
+    height: 90%;
+    width: 80%;
     // opacity: 0.5;
     margin-top: 3rem;
-    color: white;
-    text-shadow: $blueCG 1px 0 7px;
+    color: $blueCeladon;
+    text-shadow: $peachPuff 1px 0 7px;
     font-size: 1.6rem;
     position: relative;
 
     #emphasize {
         font-size: 2rem;
         color: $blueCG;
-        text-shadow: white 1px 0 7px;
+        text-shadow: $blueAero 1px 0 7px;
     }
 
     #icon {

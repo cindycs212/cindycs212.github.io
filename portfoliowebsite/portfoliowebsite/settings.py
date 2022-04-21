@@ -44,9 +44,13 @@ INSTALLED_APPS = [
     'backend',
     'contact',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    # installed corsheaders
+    'corsheaders.middleware.CorsMiddleware',
+    # default
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -86,6 +90,16 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# Email authentication
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+# EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_USER = 'donotreply.testemails@gmail.com'
+EMAIL_HOST_PASSWORD = 'qcceydqhlmvmgwnx'
+EMAIL_USE_TLS = True
 
 
 # Password validation
@@ -133,3 +147,14 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'frontend', 'build', 'static'),]
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:8000",
+# ]
+# CSRF_COOKIE_SECURE = False
+# CSRF_COOKIE_HTTPONLY = False
+# SESSION_COOKIE_SECURE = False
+
+

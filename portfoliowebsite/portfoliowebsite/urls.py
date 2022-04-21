@@ -15,12 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 # from django.urls import path
-from django.urls import re_path
+from django.urls import re_path, include
 from backend.views import frontendViews
+from django.views.generic import TemplateView
 
 # use re_path and '.*' instead of '' to help locate manifest.json, otherwise there's a 404 error
 urlpatterns = [
+    # include rest framework
+    re_path('api-auth/', include('rest_framework.urls')),
     re_path('admin/', admin.site.urls),
     re_path('.*', frontendViews, name='front'),
-
+    re_path('api/contact/', include('contact.urls')),
 ]
+
+# catch all other routes that aren't in the above and catch 404 errors
+# utilize react here, build template which have react app and have react router which does frontend routing
+# all frontend routing will be caught here
+urlpatterns += [re_path(r'^.*', TemplateView.as_view(template_name='index.html'))]

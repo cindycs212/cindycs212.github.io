@@ -34,6 +34,7 @@ export default function Experience() {
 
     return (
         <div className='container-fluid' id='experience'>
+            {/* <div className='bg-image'> */}
             <h1 id='title'>Professional Experience</h1>
             <div className='row'>
                 <div className='col-4' id='menu'>
@@ -62,6 +63,7 @@ export default function Experience() {
                     {selected === 'bizops' && <BizOps />}
                 </div>
             </div>
+            {/* </div> */}
         </div >
     )
 }
