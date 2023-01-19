@@ -8,6 +8,7 @@ import leafy from './assets/leafy.jpg'
 import puppy from './assets/puppy.jpg'
 import ideas from './assets/ideas.jpg'
 import webGif from './assets/myWebsiteGif.mp4'
+// import goodnews from './assets/goodnews.jpg'
 
 export const projects = [
     {
@@ -23,21 +24,21 @@ export const projects = [
                 <FontAwesomeIcon icon="fa-brands fa-js-square" className='mx-1' />
                 <FontAwesomeIcon icon="fa-brands fa-react" className='mx-1' />
                 <FontAwesomeIcon icon="fa-brands fa-bootstrap" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-python" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-npm" className='mx-1' />
+                {/* <FontAwesomeIcon icon="fa-brands fa-python" className='mx-1' /> */}
+                {/* <FontAwesomeIcon icon="fa-brands fa-npm" className='mx-1' /> */}
                 <FontAwesomeIcon icon="fa-brands fa-sass" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-square-font-awesome" className='mx-1' />
+                {/* <FontAwesomeIcon icon="fa-brands fa-square-font-awesome" className='mx-1' /> */}
                 <FontAwesomeIcon icon="fa-brands fa-square-font-awesome-stroke" className='mx-1' />
             </div>,
         desc:
             <div>
                 <h3 id='modalHeading'>Stack</h3>
-                <span id='stackDesc'>Python </span>
+                {/* <span id='stackDesc'>Python </span> */}
                 <span id='stackDesc'>Javascript </span>
                 <span id='stackDesc'>React </span>
-                <span id='stackDesc'>Django </span>
+                {/* <span id='stackDesc'>Django </span> */}
                 <span id='stackDesc'>Sass </span>
-                <span id='stackDesc'>Npm </span>
+                {/* <span id='stackDesc'>Npm </span> */}
                 <span id='stackDesc'>FontAwesome </span>
                 {/* <h3 id='modalHeading'>Source Code</h3> */}
                 <br />
@@ -49,18 +50,21 @@ export const projects = [
     },
     {
         id: 2,
-        title: 'Dating App',
+        title: 'Health Tracker',
         img: `${dating}`,
         demo:
             <div className='embed-responsive embed-responsive-4by3'>
-                <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
+                {/* <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe> */}
             </div>,
         stack:
             <div>
-                <FontAwesomeIcon icon="fa-brands fa-github" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-github-square" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-twitter" className='mx-1' />
+                <FontAwesomeIcon icon="fa-brands fa-js-square" className='mx-1' />
+                <FontAwesomeIcon icon="fa-brands fa-react" className='mx-1' />
+                <FontAwesomeIcon icon="fa-brands fa-bootstrap" className='mx-1' />
+                {/* <FontAwesomeIcon icon="fa-brands fa-github" className='mx-1' /> */}
+                {/* <FontAwesomeIcon icon="fa-brands fa-github-square" className='mx-1' /> */}
+                {/* <FontAwesomeIcon icon="fa-brands fa-linkedin" className='mx-1' /> */}
+                {/* <FontAwesomeIcon icon="fa-brands fa-twitter" className='mx-1' /> */}
             </div>,
         desc:
             <div>
@@ -68,11 +72,14 @@ export const projects = [
                 <span id='stackDesc'>Python </span>
                 <span id='stackDesc'>Javascript </span>
                 <span id='stackDesc'>React </span>
+                <span id='stackDesc'>Redux </span>
                 <span id='stackDesc'>Django </span>
-                <span id='stackDesc'>Sass </span>
-                <span id='stackDesc'>Npm </span>
-                <span id='stackDesc'>FontAwesome </span>
-                {/* <h3 id='modalHeading'>Source Code</h3> */}
+                <span id='stackDesc'>Djoser </span>
+                <span id='stackDesc'>Cryptography </span>
+                {/* <span id='stackDesc'>Sass </span> */}
+                {/* <span id='stackDesc'>Npm </span> */}
+                {/* <span id='stackDesc'>FontAwesome </span> */}
+                <h3 id='modalHeading'>Source Code</h3>
                 <br />
                 <a type='button' className='btn btn-info text-center my-5' id='githubButton'
                     href='https://github.com/cindycs212' target='_blank' >
@@ -82,11 +89,11 @@ export const projects = [
     },
     {
         id: 3,
-        title: 'Rescue Website',
+        title: 'User Feedback Feature',
         img: `${dogs}`,
         demo:
             <div className='embed-responsive embed-responsive-4by3'>
-                <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
+                {/* <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe> */}
             </div>,
         stack:
             <div>
@@ -115,98 +122,101 @@ export const projects = [
     },
     {
         id: 4,
-        title: 'Celeb Cats Website',
+        title: 'WIP',
         img: `${leafy}`,
         demo:
-            <div className='embed-responsive embed-responsive-4by3'>
-                <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
-            </div>,
+            <div>Good news coming!</div>,
+            // <div className='embed-responsive embed-responsive-4by3'>
+            //     <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
+            // </div>,
         stack:
             <div>
-                <FontAwesomeIcon icon="fa-brands fa-node" className='mx-1' />
+                {/* <FontAwesomeIcon icon="fa-brands fa-node" className='mx-1' /> */}
             </div>,
         desc:
             <div>
-                <h3 id='modalHeading'>Stack</h3>
+                {/* <h3 id='modalHeading'>Stack</h3>
                 <span id='stackDesc'>Python </span>
                 <span id='stackDesc'>Javascript </span>
                 <span id='stackDesc'>React </span>
                 <span id='stackDesc'>Django </span>
                 <span id='stackDesc'>Sass </span>
                 <span id='stackDesc'>Npm </span>
-                <span id='stackDesc'>FontAwesome </span>
+                <span id='stackDesc'>FontAwesome </span> */}
                 {/* <h3 id='modalHeading'>Source Code</h3> */}
                 <br />
-                <a type='button' className='btn btn-info text-center my-5' id='githubButton'
+                {/* <a type='button' className='btn btn-info text-center my-5' id='githubButton'
                     href='https://github.com/cindycs212' target='_blank' >
                     Source Code
-                </a>
+                </a> */}
             </div>
     },
     {
         id: 5,
-        title: 'App 5',
+        title: 'WIP',
         img: `${puppy}`,
         demo:
-            <div className='embed-responsive embed-responsive-4by3'>
-                <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
-            </div>,
+            <div>Good news coming!</div>,
+            // <div className='embed-responsive embed-responsive-4by3'>
+            //     <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
+            // </div>,
         stack:
             <div>
-                <FontAwesomeIcon icon="fa-brands fa-js-square" className='mx-1' />
+                {/* <FontAwesomeIcon icon="fa-brands fa-js-square" className='mx-1' />
                 <FontAwesomeIcon icon="fa-brands fa-react" className='mx-1' />
                 <FontAwesomeIcon icon="fa-brands fa-bootstrap" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-python" className='mx-1' />
+                <FontAwesomeIcon icon="fa-brands fa-python" className='mx-1' /> */}
             </div>,
         desc:
             <div>
-                <h3 id='modalHeading'>Stack</h3>
+                {/* <h3 id='modalHeading'>Stack</h3>
                 <span id='stackDesc'>Python </span>
                 <span id='stackDesc'>Javascript </span>
                 <span id='stackDesc'>React </span>
                 <span id='stackDesc'>Django </span>
                 <span id='stackDesc'>Sass </span>
                 <span id='stackDesc'>Npm </span>
-                <span id='stackDesc'>FontAwesome </span>
+                <span id='stackDesc'>FontAwesome </span> */}
                 {/* <h3 id='modalHeading'>Source Code</h3> */}
                 <br />
-                <a type='button' className='btn btn-info text-center my-5' id='githubButton'
+                {/* <a type='button' className='btn btn-info text-center my-5' id='githubButton'
                     href='https://github.com/cindycs212' target='_blank' >
                     Source Code
-                </a>
+                </a> */}
             </div>
     },
     {
         id: 6,
-        title: 'App 6',
+        title: 'WIP',
         img: `${ideas}`,
         demo:
-            <div className='embed-responsive embed-responsive-4by3'>
-                <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
-            </div>,
+            <div>Good news coming!</div>,
+            // <div className='embed-responsive embed-responsive-4by3'>
+            //     <iframe className='embed-responsive-item' src={webGif} allowFullScreen></iframe>
+            // </div>,
         stack:
             <div>
-                <FontAwesomeIcon icon="fa-brands fa-js-square" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-react" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-bootstrap" className='mx-1' />
-                <FontAwesomeIcon icon="fa-brands fa-python" className='mx-1' />
+            {/*      <FontAwesomeIcon icon="fa-brands fa-js-square" className='mx-1' />
+                 <FontAwesomeIcon icon="fa-brands fa-react" className='mx-1' />
+                 <FontAwesomeIcon icon="fa-brands fa-bootstrap" className='mx-1' />
+                 <FontAwesomeIcon icon="fa-brands fa-python" className='mx-1' /> */}
             </div>,
         desc:
             <div>
-                <h3 id='modalHeading'>Stack</h3>
+                {/* <h3 id='modalHeading'>Stack</h3>
                 <span id='stackDesc'>Python </span>
                 <span id='stackDesc'>Javascript </span>
                 <span id='stackDesc'>React </span>
                 <span id='stackDesc'>Django </span>
                 <span id='stackDesc'>Sass </span>
                 <span id='stackDesc'>Npm </span>
-                <span id='stackDesc'>FontAwesome </span>
+                <span id='stackDesc'>FontAwesome </span> */}
                 {/* <h3 id='modalHeading'>Source Code</h3> */}
                 <br />
-                <a type='button' className='btn btn-info text-center my-5' id='githubButton'
+                {/* <a type='button' className='btn btn-info text-center my-5' id='githubButton'
                     href='https://github.com/cindycs212' target='_blank' >
                     Source Code
-                </a>
+                </a> */}
             </div>
     },
 ];

@@ -5,7 +5,8 @@ import { useEffect, useRef } from 'react';
 import Nextpage from '../nextpage/Nextpage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-free/js/all'
-import photo from './../../assets/myPic.jpg'
+// import photo from './../../assets/myPic2.jpg'
+import photo from './../../assets/myPic3.png'
 
 export default function Home() {
     const textRef = useRef();
@@ -14,7 +15,7 @@ export default function Home() {
         init(textRef.current, {
             showCursor: true,
             backDelay: 1500,
-            strings: ['React', 'Python', 'Django', 'Bootstrap']
+            strings: ['Python', 'Javascript', 'React', 'Django', 'Material UI', 'Bootstrap']
         })
     })
     return (
