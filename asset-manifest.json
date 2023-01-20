@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e63dc8e.css",
+    "main.js": "/static/js/main.db75d417.js",
+    "static/media/leafy.jpg": "/static/media/leafy.1122558f1ce072829ebe.jpg",
+    "static/media/website.png": "/static/media/website.ba3f7cb9da3534ccf969.png",
+    "static/media/website2.png": "/static/media/website2.f01f18fdf3fb74e2c370.png",
+    "static/media/myPic3.png": "/static/media/myPic3.c1d7b6bdedac6238384b.png",
+    "static/media/cu.svg.png": "/static/media/cu.svg.e2fcfaa2213ae6e4ff72.png",
+    "static/media/userFeedback.png": "/static/media/userFeedback.8f745e56dcb40dc8dca8.png",
+    "static/media/building.jpg": "/static/media/building.68fd4fff96ea1b7a0df2.jpg",
+    "static/media/health2.png": "/static/media/health2.3e1b96982d88ed5672b0.png",
+    "static/media/health.png": "/static/media/health.6a6a7965cc13fc8dd742.png",
+    "static/media/goodnews.jpg": "/static/media/goodnews.1c746fd9c4aae36d5846.jpg",
+    "static/media/seas.svg.png": "/static/media/seas.svg.d029978e31929d76fa84.png",
+    "static/media/citi.png": "/static/media/citi.ca35ba4b24e54dc581ca.png",
+    "static/media/starlights.jpg": "/static/media/starlights.ebe586cccac29a8f01e2.jpg",
+    "static/media/puppy.jpg": "/static/media/puppy.583dcf3c4c442fbb238f.jpg",
+    "static/media/thoughts.jpg": "/static/media/thoughts.f3dbc45e03054fc78a81.jpg",
+    "static/media/ideas.jpg": "/static/media/ideas.f876187a4dedb87d6d4f.jpg",
+    "static/media/excel.jpg": "/static/media/excel.354f9df0718885bf40ed.jpg",
+    "index.html": "/index.html",
+    "main.2e63dc8e.css.map": "/static/css/main.2e63dc8e.css.map",
+    "main.db75d417.js.map": "/static/js/main.db75d417.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e63dc8e.css",
+    "static/js/main.db75d417.js"
+  ]
+}
