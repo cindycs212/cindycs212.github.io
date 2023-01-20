@@ -17,7 +17,7 @@ export default function Education() {
                     My favorite course project was creating a mobile <span id='emphasize'>augmented reality</span> game using <FontAwesomeIcon icon="fa-brands fa-unity" /><span id='emphasize'>Unity</span>!
                 </span></li>
                 <li><span>
-                    Loved my college years in NYC so much that I continued to work in the city <span id='icon'>😄</span>
+                    Loved my college years in NYC so much that I stayed to work in the city <span id='icon'>😄</span>
                 </span></li>
             </ul>
             <img src={cu} id='cu' alt="crest1" />

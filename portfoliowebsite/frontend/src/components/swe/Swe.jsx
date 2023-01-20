@@ -9,22 +9,22 @@ export default function Swe() {
         <div id='swe'>
             <ul>
                 <li><span>
-                    I'm freelancing to build <span id='emphasize'>websites</span> for clients
+                    Check out my <a href='https://github.com/cindycs212' target='_blank'>Github</a>
+                    <span className='m-2'> or </span>
+                    see some <a href='#portfolio'>highlights</a>!
                 </span></li>
                 <li><span>
-                    Check out my <a href='#'>Github</a>
-                    <span className='m-2'> or </span>
-                    see some <a href='#'>highlights</a>!
+                    I'm currently a <span id='emphasize'>tech fellow </span>at Formation!
                 </span></li>
                 <li><span>
                     I'm a fan of:
                     <ul id='stack'>
                         <li><span id='emphasize'>Python</span></li>
                         <li><span id='emphasize'>Javascript</span></li>
-                        <li><span id='emphasize'>React</span></li>
                         <li><span id='emphasize'>Django</span></li>
-                        <li><span id='emphasize'>Sass</span></li>
-                        <li><span id='emphasize'>Java</span></li>
+                        <li><span id='emphasize'>React</span></li>
+                        {/* <li><span id='emphasize'>Sass</span></li>
+                        <li><span id='emphasize'>Java</span></li> */}
                     </ul>
                 </span></li>
             </ul>

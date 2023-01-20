@@ -29,7 +29,7 @@ export default function Home() {
                     <div className="backgroundContainer">
                         <div className="introContainer">
                             <h2 id='hello'> <span id='wave'>👋</span> Hi there, I'm </h2>
-                            <h2 className='name'>Cindy</h2>
+                            <h2 className='name'>Cindy Long</h2>
                         </div>
                         <div className="descContainer">
                             <h3><span>Software engineer</span> with experiences in <span id='textRef' ref={textRef}></span></h3>

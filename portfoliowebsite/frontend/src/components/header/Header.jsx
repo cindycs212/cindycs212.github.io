@@ -18,7 +18,7 @@ export default function Header() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            email
+                            Email: <span className="email">cindycs212@gmail.com</span>
                         </div>
                     </div>
                 </div>
