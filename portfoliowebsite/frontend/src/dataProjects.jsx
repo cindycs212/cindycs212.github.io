@@ -102,7 +102,7 @@ export const projects = [
                 {/* <h3 id='modalHeading'>Source Code</h3> */}
                 <br />
                 <a type='button' className='btn btn-info text-center my-5' id='githubButton'
-                    href='https://github.com/cindycs212' target='_blank' >
+                    href='https://github.com/cindycs212/cindycs212.github.io' target='_blank' >
                     Source Code
                 </a>
             </div>
